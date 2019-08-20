@@ -1,0 +1,959 @@
+{{ header }}
+
+
+<!-- __ First. Header-section __ -->
+<header class="header" id="header">
+	<!-- Background slider. -->
+	<div id="block-for-slider">
+		<div id="viewport">
+			<ul id="slidewrapper">
+				<li class="slide">
+					<div class="slide-img slide-img-1"></div>
+					{# <img src="{{ image_link }}/header-bg1.jpg" alt="1" class="slide-img">  #}
+				</li>
+				<li class="slide">
+					<div class="slide-img slide-img-2"></div>
+					{# <img src="{{ image_link }}/product1.jpg" alt="2" class="slide-img">  #}
+				</li>
+				<li class="slide">
+					<div class="slide-img slide-img-3"></div>
+					{# <img src="{{ image_link }}/product3.jpg" alt="3" class="slide-img">  #}
+				</li>
+				<li class="slide">
+					<div class="slide-img slide-img-4"></div>
+					{# <img src="{{ image_link }}/product4.jpg" alt="4" class="slide-img">  #}
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /Background slider. -->
+	<!-- Background slider. Buttons -->
+	<div id="prev-next-btns">
+		<div id="prev-btn">
+			<img src="{{ image_link }}/left-w.png" alt="Previous">
+		</div>
+		<div id="next-btn">
+			<img src="{{ image_link }}/right-w.png" alt="Next">
+		</div>
+	</div>
+	<!-- /Background slider. Buttons  -->
+	<div class="header-bg-wrap">
+		<div class="header-content">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="offer">
+							<div class="offer__wrap">
+								<p class="offer__before">
+									Гармония комфорта, стиля, качества и цены
+								</p>
+								<h1 class="offer__title">
+									<b>BRAVO</b>МЕБЕЛЬ
+								</h1>
+							</div>
+							<p class="offer__after">
+								Стильная, качественнаяи экологичная мебель от производителя с доставкой в любую точку
+								Брянска и области
+							</p>
+						</div>
+
+
+
+
+						<div id="search" class="search d-flex justify-content-between input-group">
+							<input type="text" name="search" value="{{ search }}" placeholder="{{ text_search }}"
+								class="form-control input-lg" />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default btn-lg"><i
+										class="fa fa-search"></i></button>
+							</span>
+						</div>
+
+
+
+						<a href="catalog" class="go header-go">
+							Перейти в каталог
+						</a>
+						<a href="#merits-section" class="scroll-down go-to">
+							<img src="{{ image_link }}/skroll.png" alt="more" class="scroll__img">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Second. Merits-section -->
+<section class="merits-section" id="merits-section">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="merits-title">
+					Почему выбирают нас
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-lg-3">
+				<div class="fadeinleft">
+					<div class="merit merit-less">
+						<img src="{{ image_link }}/merit-ikon1.png" alt="Надёжность - наше кредо" class="merit__icon">
+						<h3 class="merit__title">
+							Надёжность - наше кредо
+						</h3>
+						<p class="merit__info">
+							BRAVOмебель - поставщик, который ценит <strong>каждого</strong> клиента и партнёра, и
+							подходит к его нуждам индивидуально
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="fadeinleft">
+					<div class="merit">
+						<img src="{{ image_link }}/merit-ikon2.png" alt="Шикарный выбор" class="merit__icon">
+						<h3 class="merit__title">
+							Шикарный выбор
+						</h3>
+						<p class="merit__info">
+							По-настоящему широкий ассортимент товаров, позволяющий клиентам <strong>экономить</strong>
+							на логистике и скидках на опт
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="fadeinleft">
+					<div class="merit">
+						<img src="{{ image_link }}/merit-ikon3.png" alt="Лучшие цены в сегменте" class="merit__icon">
+						<h3 class="merit__title">
+							Лучшие цены в сегменте
+						</h3>
+						<p class="merit__info">
+							Оптимально низкие цены на ассортимент, спрос на который даёт возможность реализации с
+							торговой <strong>наценкой от 50%</strong>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="fadeinleft">
+					<div class="merit merit-less">
+						<img src="{{ image_link }}/merit-ikon4.png" alt="Экспресс-доставка" class="merit__icon">
+						<h3 class="merit__title">
+							Экспресс-доставка
+						</h3>
+						<p class="merit__info">
+							Бесплатная <strong>аккуратная</strong> доставка мебели в любую точку Брянска и Брянской
+							области в течение 30 минут
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Third. Hits-section -->
+<section class="hits-section" id="hits-section">
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2 class="hits-title">
+					Хиты продаж
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="hits-slider">
+		<div class="hits-slider__item">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt="">
+								</a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex d-xl-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hits-slider__item">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex d-xl-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hits-slider__item">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-sm-flex d-xl-flex col-sm-6 col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none d-xl-flex col-xl-4">
+						<div class="card">
+							<div class="card__photo">
+								<a href="#" class="card__img-link">
+									<img src="{{ image_link }}/product1.jpg" alt=""></a>
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">
+									НАЗВАНИЕ ТОВАРА
+								</h3>
+								<p class="card__descript">
+									Краткое описание товара в две строки короткое описание товара в две строки
+								</p>
+								<div class="card__wrap d-flex justify-content-between align-items-center">
+									<span class="card__price">
+										6888 р.
+									</span>
+									<a href="#" class="card__more more">
+										Подробнее...
+									</a>
+									<button class="card__get">
+										В корзину
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<a href="#" class="catalog-link go">
+					Перейти в полный каталог
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- __ Fourth. About-section __ -->
+<section class="about-section" id="about-section">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="about-title">
+					О нашей компании
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="about d-flex d-lg-block">
+					<div class="about__mission about__part fadeinleft">
+						<h3 class="about__title">
+							Наша миссия
+						</h3>
+						<p class="about__text">
+							&#171;Торговый Дом <span><b>BRAVO</b>МЕБЕЛЬ</span>&#187; — это поставщик мебели для обширной
+							сети салонов в России, странах СНГ и Евросоюза. Это перспективные инвестиционные проекты,
+							социальные и экологические программы, возрождение русской культуры и сохранение богатого
+							исторического наследия — это чувства, отношения, образ жизни.
+						</p>
+					</div>
+					<div class="about__mission about__part fadeinleft">
+						<h3 class="about__method">
+							Наш метод
+						</h3>
+						<p class="about__text">
+							Наша сильная черта — восприимчивость к новому. Мы идем в ногу со временем и стремимся к
+							безупречности. Неизменно высокий уровень клиентских услуг помогает нам быть всегда на шаг
+							впереди. Каждый из наших продавцов — эксперт в формировании жилого пространства: от выбора
+							корпусной мебели и аксессуаров до цветового оформления.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="about-img fadeinright"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- __ Fifth. Feedback-section __ -->
+<section class="feedback-section" id="feedback-section">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="feed-title">
+					Мнения клиентов
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="feed-slider">
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo1.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Достоевский Ф.М.,
+							</h3>
+							<span class="client__type">
+								постоянный клиент
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo2.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Шевченко Т.Г.,
+							</h3>
+							<span class="client__type">
+								торговый партнёр
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo3.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Купала Я.Д.,
+							</h3>
+							<span class="client__type">
+								клиент
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo1.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Достоевский Ф.М.,
+							</h3>
+							<span class="client__type">
+								постоянный клиент
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo2.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Шевченко Т.Г.,
+							</h3>
+							<span class="client__type">
+								торговый партнёр
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+					<div class="client d-flex">
+						<div class="client__photo">
+							<img src="{{ image_link }}/user-photo3.jpg" alt="Отзыв о BRAVOмебель" class="client__img">
+						</div>
+						<div class="client__info">
+							<h3 class="client__name">
+								Купала Я.Д.,
+							</h3>
+							<span class="client__type">
+								клиент
+							</span>
+							<p class="client__feedback">
+								Здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет отзыв здесь будет
+								отзыв здесь будет отзыв здесь будет...
+							</p>
+							<a href="#" class="client__more more">
+								далее...
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- __ Sixth. Contacts-section __ -->
+<section class="contacts-section" id="contacts-section">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="contacts-title">
+					Свяжитесь с нами!
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="contacts-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 ml-md-auto">
+					<div
+						class="contacts-block d-flex justify-content-around flex-column flex-md-row justify-content-lg-between">
+						<div class="contacts">
+							<div class="contacts__info">
+								<h3 class="contacts__title">
+									Главный сайт компании:
+								</h3>
+								<a href="https://tdbravomebel.ru/" target="_blank" rel="nofollow"
+									class="contacts__link contacts__text">
+									tdbravomebel.ru
+								</a>
+							</div>
+							<div class="contacts__info">
+								<h3 class="contacts__title">
+									Наши контакты:
+								</h3>
+								<div class="contacts__text">
+									<div class="contacts__inner">
+										<span>Телефон:</span>
+										<a href="tel:+79803002474" class="contacts__link">
+											+7 (980) 300-24-74
+										</a>
+									</div>
+									<div class="contacts__inner">
+										<span>E-mail:</span>
+										<a href="mailto:opt@tdbravomebel.ru" class="contacts__link">
+											opt@tdbravomebel.ru
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="contacts__info">
+								<h3 class="contacts__title">
+									Адрес:
+								</h3>
+								<p class="contacts__adress contacts__text">
+									г. Брянск, п. Белые Берега,
+									ул. Транспортная, д. 28, 241902
+								</p>
+							</div>
+							<div class="contacts__info">
+								<h3 class="contacts__title">
+									Время работы:
+								</h3>
+								<p class="contacts__time contacts__text">
+									Пн.-Пт. – 08:00 - 18:00,
+									Сб. – 08:00 - 14:00
+								</p>
+							</div>
+						</div>
+						<form action="#" class="form">
+							<h3 class="form__title">
+								Напишите нам!
+							</h3>
+							<input type="name" placeholder="Ваше имя..." class="form__input">
+							<input type="tel" placeholder="Ваш телефон..." class="form__input">
+							<input type="email" placeholder="Ваше имя..." class="form__input">
+							<textarea placeholder="Ваше сообщение..." class="form__text"></textarea>
+							<button type="submit" class="form__btn">
+								Отправить сообщение
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+			<script type="text/javascript" charset="utf-8" async
+				src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a1bd811ea11dc6a1672ce154087f82bde1106872a6e33501dd5ba7a6c55e7af&amp;width=100%25&amp;height=800&amp;lang=ru_RU&amp;scroll=false">
+			</script>
+		</div>
+	</div>
+</section>
+<!-- __ Seventh. Footer-section __ -->
+
+
+{{ footer }}
